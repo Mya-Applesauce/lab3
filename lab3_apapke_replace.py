@@ -7,7 +7,9 @@ List replacement
 
 from lab3_apapke_add import sonic_characters
 
+
 sonic_characters[7] = "binoculars"
 
-print(f"{sonic_characters[0:7]} \n {sonic_characters[7]} \n {sonic_characters[8:15]}")
+if __name__ == "__main__":
+    print(f"{sonic_characters[0:7]} \n {sonic_characters[7]} \n {sonic_characters[8:15]}")
 
